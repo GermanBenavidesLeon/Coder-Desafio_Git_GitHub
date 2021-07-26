@@ -1,0 +1,50 @@
+footer{
+    background-image: radial-gradient( rgb(75, 74, 74), rgb(19, 18, 18));
+    opacity: 80%;
+    color: black;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10pt;
+    padding: 30px;
+    margin-top: 200px;
+    align-items: center;
+    border-radius: 10px;
+
+    @media (max-width: 960px){
+        flex-direction: column;
+        align-items: center;
+    }
+            
+        a{
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 15pt;
+            font-weight: bold;
+        }
+
+        p{
+            color: $colorbikeytextos;
+            font-size: 10px;
+        }
+
+       ul{
+           list-style: none;
+           color: $colorbikeytextos;
+           h4{
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 5px;
+           }
+       }
+
+        li{
+            font-family: $textos;
+            font-size: 12px;
+            margin-bottom: 10px;
+       }
+}
+
+

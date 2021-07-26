@@ -1,0 +1,50 @@
+.InfoContac{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: $altyanchocolum/2;
+
+
+    article{
+    background-color: rgb(44, 44, 44);
+    background-image: linear-gradient(to right, rgb(170, 167, 167), rgb(72, 74, 75));
+    opacity: 90%;
+    padding: 30px;
+    margin: 100px 15px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma;
+    }
+
+    h1{
+    text-align: center;
+    margin-bottom: 10px;
+    }
+
+    div{
+    background-color: rgba(112, 112, 108, 0.932);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    transition: all 1s;
+    }
+
+    div:hover{
+    background-color: $esloganyotros;
+    }
+
+    input{
+    background-color: rgba(217, 218, 216, 0.932);
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    }
+
+    textarea{
+    border-radius: 10px;
+    padding: 5px;
+    font-family: $textos;
+    margin: 20px 10px 10px 150px;
+    font-size: 13pt;
+    color: darkgrey;
+    }
+
+}
